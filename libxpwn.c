@@ -22,7 +22,6 @@ void defaultCallback(const char* Message) {
 }
 
 void init_libxpwn() {
-
 	TestByteOrder();
 	GlobalLogLevel = 0xFF;
 	logCallback = defaultCallback;
